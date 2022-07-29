@@ -106,3 +106,62 @@ button:hover{
     background-color: rgba(177, 22, 22, 0.568);
     transition: all 0.4s linear;
 }
+
+#hero {
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 70px 50px;
+}
+
+.descripcion-container{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.text-container{
+    max-width: max(40%, 300px);
+}
+
+.text-container h1{
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 45px;
+}
+
+.text-container p{
+    font-weight: 300px;
+    font-size: 15px;
+}
+
+.hero-img{
+    background-image: url(https://alfabetajuega.com/hero/2020/09/Goku-Super-Saiyan-Dios.jpg?width=1200&aspect_ratio=1200:631);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 250px;
+    width: 30%;
+    height: 350px;
+    border-radius: 20px;
+}
+
+@media (max-width: 992px){
+    .hero-img {
+        display: none;
+    }
+
+    .descripcion-container{
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .text-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}
