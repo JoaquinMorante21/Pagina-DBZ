@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    width: 100%;
+    color: rgb(255, 255, 255);
+}
+
+.section-container{
+    background-color: rgb(49, 54, 54);
+}
+
+.section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 70px 0px;
+    width: 90%;
+    max-width: 1300px;
+}
+
+.section-tittle{
+    font-weight: 700px;
+    font-size: 32px;
+}
+
+.section-p {
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.section-p small {
+    font-size: 10px;
+    font-weight: 300px;
+}
+
+.header{
+    background-color: rgb(49, 54, 54);
+    margin: 0 auto;
+    max-width: 1300px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 80px 0px 50px;
+}
+
+.logo-container{
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.logo-container img{
+    height: 60%;
+
+}
+
+.navbar
+.navbar-list{
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-list{
+    gap: 50px;
+}
+
+.navbar a{
+    color: white;
+}
+
+.navbar a:hover{
+    background-color: rgb(177, 22, 22);
+    border: solid 1px rgb(177, 22, 22);
+    padding: 5px;
+    border-radius: 5px;
+    transition: all 0.1s linear;
+}
+
+button{
+    background-color: rgb(177, 22, 22);
+    border:0px solid black;
+    outline: none;
+    width: 180px;
+    height: 40px;
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.4s linear;
+}
+
+button:hover{
+    background-color: rgba(177, 22, 22, 0.568);
+    transition: all 0.4s linear;
+}
