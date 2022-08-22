@@ -351,16 +351,13 @@ button:hover{
 /* #speakers{
     flex-direction: column;
     gap: max(120px, 10%);
-
 }
-
 .title-container{
     display: flex;
     justify-content: space-around;
     gap: 25%;
     width: 100%;
 }
-
 .speakers-cards-container{
     display: flex;
     align-items: center;
@@ -369,7 +366,6 @@ button:hover{
     width: 75%;
     gap: 90px;
 }
-
 .speakers-card-goku {
     display: flex;
     align-items: center;
@@ -385,7 +381,6 @@ button:hover{
     background-size: cover;
     border-radius: 5px;
 }
-
 .speakers-card-vegeta {
     display: flex;
     align-items: center;
@@ -401,7 +396,6 @@ button:hover{
     background-size: cover;
     border-radius: 5px;
 }
-
 .speakers-card-gohan {
     display: flex;
     align-items: center;
@@ -417,7 +411,6 @@ button:hover{
     background-size: cover;
     border-radius: 5px;
 }
-
 .speakers-card-goten {
     display: flex;
     align-items: center;
@@ -433,7 +426,6 @@ button:hover{
     background-size: cover;
     border-radius: 5px;
 }
-
 .speakers-card-trunks {
     display: flex;
     align-items: center;
@@ -449,7 +441,6 @@ button:hover{
     background-size: cover;
     border-radius: 5px;
 }
-
 .speakers-card-broly {
     display: flex;
     align-items: center;
@@ -465,7 +456,6 @@ button:hover{
     background-size: cover;
     border-radius: 5px;
 }
-
 .speakers-card-freezer {
     display: flex;
     align-items: center;
@@ -481,7 +471,6 @@ button:hover{
     background-size: cover;
     border-radius: 5px;
 }
-
 .speakers-card-bills {
     display: flex;
     align-items: center;
@@ -504,32 +493,26 @@ button:hover{
 /* .speakers-card:first-child .speakers-card-img{
     background-image: url(https://alfabetajuega.com/hero/2022/05/Dragon-Ball-confirma-a-que-personaje-Goku-nunca-podra-ganarle.jpg?width=1200&aspect_ratio=1200:631);
 }
-
 .speakers-card:nth-child(2) .speakers-card-img{
     background-image: url(https://sm.ign.com/ign_latam/screenshot/default/vegeta-nombre-real_6g4c.jpg);
     
 }
-
 .speakers-card:nth-child(3) .speakers-card-img{
     background-image: url(https://i1.wp.com/www.senpai.com.mx/wp-content/uploads/2019/08/GohanSS2.jpg?fit=1200%2C720&ssl=1);
 }
-
 .speakers-card:nth-child(4) .speakers-card-img{
     background-image: url(https://laverdadnoticias.com/__export/1594252620802/sites/laverdad/img/2020/07/08/goten_es_la_reencarnacion_de_goku.png_759710130.png);
 }
-
 .speakers-card:nth-child(5) .speakers-card-img{
     background-image: url(https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/styles/1200/public/media/image/2022/02/dragon-ball-z-trunks-futuro-2612805.jpg?itok=1MNwwkp4);
 }
-
 .speakers-card:nth-child(6) .speakers-card-img{
     background-image: url(https://i0.wp.com/codigoespagueti.com/wp-content/uploads/2018/07/broly-dragon-ball-z.jpg?fit=1080%2C608&quality=80&ssl=1);
 }
-
 .speakers-card:nth-child(7) .speakers-card-img{
     background-image: url(https://sm.ign.com/t/ign_latam/screenshot/default/freezer-buu_q3ek.1200.jpg);
 }
-
 .speakers-card:last-child .speakers-card-img{
     background-image: url(https://img.europapress.es/fotoweb/fotonoticia_20170711180130_1200.jpg);
 } */
+
