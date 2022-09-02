@@ -9,6 +9,7 @@
 
 html{
     scroll-behavior: smooth;
+    width: 100%;
 }
 
 body{
@@ -515,4 +516,3 @@ button:hover{
 .speakers-card:last-child .speakers-card-img{
     background-image: url(https://img.europapress.es/fotoweb/fotonoticia_20170711180130_1200.jpg);
 } */
-
