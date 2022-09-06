@@ -1,428 +1,442 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-    list-style: none;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-html{
-    scroll-behavior: smooth;
-    width: 100%;
+html {
+  scroll-behavior: smooth;
+  width: 100%;
 }
 
-body{
-    width: 100%;
-    color: rgb(255, 255, 255);
+body {
+  width: 100%;
+  color: rgb(255, 255, 255);
 }
 
-.section-container{
-    background-color: rgb(49, 54, 54);
-    padding: 30px;
+.section-container {
+  background-color: rgb(49, 54, 54);
+  padding: 30px;
 }
 
-.section{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
-    padding: 70px 0px;
-    max-width: 1300px;
+.section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 70px 0px;
+  max-width: 1300px;
 }
 
-.section-tittle{
-    font-weight: 700px;
-    font-size: 32px;
+.section-tittle {
+  font-weight: 700px;
+  font-size: 32px;
 }
 
 .section-p {
-    font-size: 12px;
-    font-weight: 300;
+  font-size: 12px;
+  font-weight: 300;
 }
 
 .section-p-small {
-    font-size: 10px;
-    font-weight: 300px;
+  font-size: 10px;
+  font-weight: 300px;
 }
 
-.header{
-    background-color: rgb(49, 54, 54);
-    margin: 0 auto;
-    width: 100%;
-    height: 100px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0px 80px 0px 50px;
-    position: fixed;
-    top: 0;
-    z-index: 2000;
-    left: 0;
+.header {
+  background-color: rgb(49, 54, 54);
+  margin: 0 auto;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 80px 0px 50px;
+  position: fixed;
+  top: 0;
+  z-index: 2000;
+  left: 0;
 }
 
-.logo-container{
-    height: 100px;
-    display: flex;
-    align-items: center;
+.logo-container {
+  height: 100px;
+  display: flex;
+  align-items: center;
 }
 
-.logo-container img{
-    height: 60%;
+.logo-container img {
+  height: 60%;
 
 }
 
-.navbar
-.navbar-list{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.navbar .navbar-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.navbar-list{
-    gap: 50px;
+.navbar-list {
+  gap: 50px;
 }
 
-.navbar a{
-    color: white;
+.navbar a {
+  color: white;
 }
 
-.navbar a:hover{
-    
-    border: solid 0px rgb(177, 22, 22);
-    /* padding: 5px; */
-    border-radius: 5px;
-    transition: all 0.1s linear;
+.navbar a:hover {
+
+  border: solid 0px rgb(177, 22, 22);
+  /* padding: 5px; */
+  border-radius: 5px;
+  transition: all 0.1s linear;
 }
 
-button{
-    background-color:rgba(177, 22, 22, 0.568);
-    border:0px solid black;
-    outline: none;
-    width: 180px;
-    height: 40px;
-    color: white;
-    font-weight: 700;
-    font-size: 14px;
-    cursor: pointer;
-    transition: all 0.4s linear;
+button {
+  background-color: rgba(177, 22, 22, 0.568);
+  border: 0px solid black;
+  outline: none;
+  width: 180px;
+  height: 40px;
+  color: white;
+  font-weight: 700;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.4s linear;
 }
 
-button:hover{
-    background-color: rgb(177, 22, 22);
-    transition: all 0.4s linear;
-    border-radius: 50px;
+button:hover {
+  background-color: rgb(177, 22, 22);
+  transition: all 0.4s linear;
+  border-radius: 50px;
 }
 
 #hero {
-    justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 20px;
-    padding: 70px 50px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 70px 50px;
 }
 
-.descripcion-container{
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
+.descripcion-container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
 }
 
-.text-container{
-    max-width: max(40%, 300px);
+.text-container {
+  max-width: max(40%, 300px);
 }
 
-.text-container h1{
-    font-weight: 700;
-    font-size: 45px;
-    line-height: 45px;
+.text-container h1 {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 45px;
 }
 
-.text-container p{
-    font-weight: 300px;
-    font-size: 15px;
+.text-container p {
+  font-weight: 300px;
+  font-size: 15px;
 }
 
-.hero-img{
-    background-image: url(https://alfabetajuega.com/hero/2020/09/Goku-Super-Saiyan-Dios.jpg?width=1200&aspect_ratio=1200:631);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-width: 250px;
-    width: 30%;
-    height: 350px;
-    border-radius: 20px;
+.hero-img {
+  background-image: url(https://alfabetajuega.com/hero/2020/09/Goku-Super-Saiyan-Dios.jpg?width=1200&aspect_ratio=1200:631);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-width: 250px;
+  width: 30%;
+  height: 350px;
+  border-radius: 20px;
 }
 
 
-.bola-dragon{
+.bola-dragon {
   height: 3rem;
   width: 3rem;
   display: none;
 }
 
-#menu-toggle{
+#menu-toggle {
   display: none;
 }
 
 /* media query */
 
-@media (max-width: 576px){
+@media (max-width: 576px) {
 
-  .header{
+  .header {
     padding: 0px 80px 0px 30px;
   }
 
-    .descripcion-container{
-        flex-direction: column;
-    }
-}
-@media (max-width: 992px) { 
-
-
-  .navbar ul{
-    width: ;
+  .descripcion-container {
+    flex-direction: column;
   }
+}
 
-  .bola-dragon{
+@media (max-width: 992px) {
+
+  .navbar{
+    background-color: rgb(62, 68, 68);
+    height: 50vh;
+    width: 100vw;
+    position: absolute;
+    top: -500px;
+    left: 0;
+    transition: 1s all ease-in-out;
+    }
+    .navbar-list{
+    flex-direction: column;
+    margin: 50px auto;
+    }
+    
+    #menu-toggle:checked + .navbar{
+    top: 100px;
+    }
+
+
+  .bola-dragon {
     height: 3rem;
     width: 3rem;
     display: block;
+    cursor: pointer;
   }
 
-  .navbar
-    .navbar-list{
-        /* display: none; */
-        background-color: ;
-        flex-direction: column;
-        height: 100vh;
-    }
 
-  .hero-img{
+  .hero-img {
     display: none;
   }
 
 
-  #hero{
+  #hero {
     justify-content: space-around;
     flex-wrap: wrap;
     gap: 20px;
     padding: 70px 50px;
     display: flex;
+  }
+
+
+  a {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    flex-direction: row-reverse;
+    align-items: center;
+  }
+
+
+
+
+
+  .description-container {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .speakers-cards-container {
+    width: 100%;
+  }
 }
-  
 
-    a{
-        display: flex;
-        justify-content: center;
-        justify-items: center;
-        flex-direction: row-reverse;
-        align-items: center;
-    }
-
-    
-
-    
-
-    .description-container {
-      justify-content: center;
-      align-items: center;
-      width: 100%;
-    }
-    .text-container {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
-    }
-    .speakers-cards-container{
-      width: 100%;
-    }
-}
 /* media query */
 
-#about-us{
-    gap: 15%;
-    flex-wrap: wrap;
+#about-us {
+  gap: 15%;
+  flex-wrap: wrap;
 }
 
-.about-img{
-    background-image: url(https://fondosmil.com/fondo/24592.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 40%;
-    height: 350px;
-    border-radius: 20px; 
+.about-img {
+  background-image: url(https://fondosmil.com/fondo/24592.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 40%;
+  height: 350px;
+  border-radius: 20px;
 }
 
 @media (max-width: 793px) {
-  .about-img{
-    width: 100% ;
+  .about-img {
+    width: 100%;
   }
 
-  #about-us{
+  #about-us {
     flex-direction: column;
     gap: 20px;
-    }
-    .title-container button {
-      display: none;
-    }
-    .responsive-btn {
-      display: block;
-    }
-    .speakers-card {
-      width: min(350px, 90%);
-    }
   }
 
-
-.about-content{
-    height: 250px;
-    width: 300px;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-}
-
-.adress{
-    font-weight: 700;
-}
-
-.about-cards-container{
-    display: flex;
-    gap: 30px;
-}
-
-.about-card{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: rgba(177, 22, 22, 0.568);
-    height: 60px;
-    width: 100px;
-    border-radius: 5px;
-}
-
-.about-card span{
-    font-weight: 700;
-    font-size: 20px;
-}
-
-#speakers {
-    flex-direction: column;
-    gap: max(120px, 10%);
-  }
-  
-  .title-container {
-    display: flex;
-    justify-content: space-around;
-    gap: 25%;
-    width: 20%;
-  }
-  
-  .speakers-cards-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    width: 75%;
-    gap: 90px;
-  }
-  
-  .speakers-card {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    background-color: gray;
-    text-align: center;
-    width: 250px;
-    height: 250px;
-    position: relative;
-    padding-top: 50px;
-    background-position: center;
-    background-size: cover;
-    border-radius: 5px;
-  }
-  
-
-
-
-  .speakers-card:first-child {
-    background-image: url(https://alfabetajuega.com/hero/2022/05/Dragon-Ball-confirma-a-que-personaje-Goku-nunca-podra-ganarle.jpg?width=1200&aspect_ratio=1200:631);
-  }
-  
-  .speakers-card:nth-child(2) {
-    background-image: url(https://sm.ign.com/ign_latam/screenshot/default/vegeta-nombre-real_6g4c.jpg);
-  }
-  
-  .speakers-card:nth-child(3) {
-    background-image: url(https://i1.wp.com/www.senpai.com.mx/wp-content/uploads/2019/08/GohanSS2.jpg?fit=1200%2C720&ssl=1);
-  }
-  
-  .speakers-card:nth-child(4) {
-    background-image: url(https://laverdadnoticias.com/__export/1594252620802/sites/laverdad/img/2020/07/08/goten_es_la_reencarnacion_de_goku.png_759710130.png);
-  }
-  
-  .speakers-card:nth-child(5) {
-    background-image: url(https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/styles/1200/public/media/image/2022/02/dragon-ball-z-trunks-futuro-2612805.jpg?itok=1MNwwkp4);
-  }
-
-  .speakers-card:nth-child(6) {
-    background-image: url(https://i0.wp.com/codigoespagueti.com/wp-content/uploads/2018/07/broly-dragon-ball-z.jpg?fit=1080,608&quality=80&ssl=1);
-  }
-
-  .speakers-card:nth-child(7) {
-    background-image: url(https://sm.ign.com/t/ign_latam/screenshot/default/freezer-buu_q3ek.1200.jpg);
-  }
-
-  .speakers-card:nth-child(8) {
-    background-image: url(https://img.europapress.es/fotoweb/fotonoticia_20170711180130_1200.jpg);
-  }
-
-  .speakers-card:nth-child(9) {
-    background-image: url(http://pm1.narvii.com/7575/0f3d9da2baf673615e8e1c301f657582623c00a6r1-1773-1773v2_00.jpg);
-  }
-  
-  .speakers-card h3 {
-    font-weight: 700;
-    font-size: 20px;
-  }
-  
-  .responsive-btn {
+  .title-container button {
     display: none;
   }
 
-
-  .contacto-ig{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    background-color: rgb(49, 54, 54);
-    padding: 10rem;
-    align-items: center;
-    position: relative;
+  .responsive-btn {
+    display: block;
   }
 
-  .yo-imagen{
-    width: 23rem;
-    height: 23rem;
-    border-radius: 20px;
+  .speakers-card {
+    width: min(350px, 90%);
   }
+}
 
 
-  .boton{
-    position: absolute;
-  }
+.about-content {
+  height: 250px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
 
-  .footer{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-items: center;
-    justify-content: center;
-    padding: 5px;
-    gap: 20px;
-  }
+.adress {
+  font-weight: 700;
+}
+
+.about-cards-container {
+  display: flex;
+  gap: 30px;
+}
+
+.about-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(177, 22, 22, 0.568);
+  height: 60px;
+  width: 100px;
+  border-radius: 5px;
+}
+
+.about-card span {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+#speakers {
+  flex-direction: column;
+  gap: max(120px, 10%);
+}
+
+.title-container {
+  display: flex;
+  justify-content: space-around;
+  gap: 25%;
+  width: 20%;
+}
+
+.speakers-cards-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 75%;
+  gap: 90px;
+}
+
+.speakers-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: gray;
+  text-align: center;
+  width: 250px;
+  height: 250px;
+  position: relative;
+  padding-top: 50px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 5px;
+}
+
+
+
+
+.speakers-card:first-child {
+  background-image: url(https://alfabetajuega.com/hero/2022/05/Dragon-Ball-confirma-a-que-personaje-Goku-nunca-podra-ganarle.jpg?width=1200&aspect_ratio=1200:631);
+}
+
+.speakers-card:nth-child(2) {
+  background-image: url(https://sm.ign.com/ign_latam/screenshot/default/vegeta-nombre-real_6g4c.jpg);
+}
+
+.speakers-card:nth-child(3) {
+  background-image: url(https://i1.wp.com/www.senpai.com.mx/wp-content/uploads/2019/08/GohanSS2.jpg?fit=1200%2C720&ssl=1);
+}
+
+.speakers-card:nth-child(4) {
+  background-image: url(https://laverdadnoticias.com/__export/1594252620802/sites/laverdad/img/2020/07/08/goten_es_la_reencarnacion_de_goku.png_759710130.png);
+}
+
+.speakers-card:nth-child(5) {
+  background-image: url(https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/styles/1200/public/media/image/2022/02/dragon-ball-z-trunks-futuro-2612805.jpg?itok=1MNwwkp4);
+}
+
+.speakers-card:nth-child(6) {
+  background-image: url(https://i0.wp.com/codigoespagueti.com/wp-content/uploads/2018/07/broly-dragon-ball-z.jpg?fit=1080,608&quality=80&ssl=1);
+}
+
+.speakers-card:nth-child(7) {
+  background-image: url(https://sm.ign.com/t/ign_latam/screenshot/default/freezer-buu_q3ek.1200.jpg);
+}
+
+.speakers-card:nth-child(8) {
+  background-image: url(https://img.europapress.es/fotoweb/fotonoticia_20170711180130_1200.jpg);
+}
+
+.speakers-card:nth-child(9) {
+  background-image: url(http://pm1.narvii.com/7575/0f3d9da2baf673615e8e1c301f657582623c00a6r1-1773-1773v2_00.jpg);
+}
+
+.speakers-card h3 {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.responsive-btn {
+  display: none;
+}
+
+
+.contacto-ig {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: rgb(49, 54, 54);
+  padding: 10rem;
+  align-items: center;
+  position: relative;
+}
+
+.yo-imagen {
+  width: 23rem;
+  height: 23rem;
+  border-radius: 20px;
+}
+
+
+.boton {
+  position: absolute;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+  padding: 5px;
+  gap: 20px;
+}
