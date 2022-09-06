@@ -28,7 +28,6 @@ body{
     align-items: center;
     margin: 0 auto;
     padding: 70px 0px;
-    width: 90%;
     max-width: 1300px;
 }
 
@@ -167,16 +166,6 @@ button:hover{
 
 /* media query */
 
-@media (max-width: 861px){
-    .hero-img{
-        display: none;
-    }
-
-    .descripcion-container{
-        flex-direction: row;
-    }
-}
-
 @media (max-width: 576px){
 
   .header{
@@ -189,8 +178,38 @@ button:hover{
 }
 @media (max-width: 992px) { 
 
-  
 
+  .navbar ul{
+    width: ;
+  }
+
+  .bola-dragon{
+    height: 3rem;
+    width: 3rem;
+    display: block;
+  }
+
+  .navbar
+    .navbar-list{
+        /* display: none; */
+        background-color: ;
+        flex-direction: column;
+        height: 100vh;
+    }
+
+  .hero-img{
+    display: none;
+  }
+
+
+  #hero{
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 70px 50px;
+    display: flex;
+}
+  
 
     a{
         display: flex;
@@ -200,12 +219,10 @@ button:hover{
         align-items: center;
     }
 
-    .navbar
-    .navbar-list{
-        display: none;
-    }
+    
 
     
+
     .description-container {
       justify-content: center;
       align-items: center;
@@ -218,48 +235,10 @@ button:hover{
       align-items: center;
       text-align: center;
     }
-  
-  }
-
-@media (max-width:768px){
-    #about-us{
-        flex-direction: column;
-        gap: 20px;
-    }
-}
-
-@media (max-width: 768px) {
-    .title-container button {
-      display: none;
-    }
-    .responsive-btn {
-      display: block;
-    }
-    .speakers-card {
-      width: min(350px, 90%);
-    }
-  }
-
-  
-@media (max-width: 992px){
     .speakers-cards-container{
       width: 100%;
     }
-  }
-
-  @media (max-width: 640px){
-    .yo-imagen{
-        width: 10rem;
-        height: 10rem;
-    }
-  }
-
-  @media (max-width: 497px){
-    .yo-imagen{
-        width: 5rem;
-        height: 5rem;
-    }
-  }
+}
 /* media query */
 
 #about-us{
@@ -272,11 +251,31 @@ button:hover{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-width: 250px;
-    width: 30%;
+    width: 40%;
     height: 350px;
     border-radius: 20px; 
 }
+
+@media (max-width: 793px) {
+  .about-img{
+    width: 100% ;
+  }
+
+  #about-us{
+    flex-direction: column;
+    gap: 20px;
+    }
+    .title-container button {
+      display: none;
+    }
+    .responsive-btn {
+      display: block;
+    }
+    .speakers-card {
+      width: min(350px, 90%);
+    }
+  }
+
 
 .about-content{
     height: 250px;
@@ -404,6 +403,7 @@ button:hover{
     background-color: rgb(49, 54, 54);
     padding: 10rem;
     align-items: center;
+    position: relative;
   }
 
   .yo-imagen{
@@ -412,11 +412,11 @@ button:hover{
     border-radius: 20px;
   }
 
-  .contacto-alineacion{
-    display: flex;
-    align-items: center;
-    margin: 20px;
+
+  .boton{
+    position: absolute;
   }
+
   .footer{
     display: flex;
     flex-direction: column;
